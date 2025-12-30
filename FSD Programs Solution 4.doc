@@ -1,0 +1,898 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Arial;}{\f1 Consolas;}}
+\fs28\b FSD Programs Solutions\b0\par
+\fs20 Generated on 2025-12-31 00:14\par\par
+\fs24\b 1. Basic HTML Tags Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Basic HTML Tags Demo</title>\par
+</head>\par
+<body>\par
+  <h1>Student Portal</h1>\par
+  <h2>HTML Basics Showcase</h2>\par
+  <p>This page demonstrates core HTML tags used in everyday web pages.</p>\par
+\par
+  <h3>Unordered List</h3>\par
+  <ul>\par
+    <li>Admission</li>\par
+    <li>Courses</li>\par
+    <li>Library</li>\par
+  </ul>\par
+\par
+  <h3>Ordered List</h3>\par
+  <ol>\par
+    <li>Register</li>\par
+    <li>Verify Email</li>\par
+    <li>Start Learning</li>\par
+  </ol>\par
+\par
+  <p>\par
+    Visit the <a href="https://www.example.com" target="_blank" rel="noreferrer">official website</a>.\par
+  </p>\par
+\par
+  <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=640&q=80" alt="Library" width="320" />\par
+\par
+  <h3>Student Table</h3>\par
+  <table border="1" cellpadding="8" cellspacing="0">\par
+    <tr>\par
+      <th>Roll No</th>\par
+      <th>Name</th>\par
+      <th>Department</th>\par
+      <th>Grade</th>\par
+    </tr>\par
+    <tr>\par
+      <td>101</td>\par
+      <td>Aarav Shah</td>\par
+      <td>Computer Science</td>\par
+      <td>A</td>\par
+    </tr>\par
+    <tr>\par
+      <td>102</td>\par
+      <td>Sana Khan</td>\par
+      <td>Information Tech</td>\par
+      <td>A-</td>\par
+    </tr>\par
+  </table>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 2. Personal Portfolio Website\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Portfolio - Ananya Patel</title>\par
+</head>\par
+<body>\par
+  <header>\par
+    <h1>Ananya Patel</h1>\par
+    <p>Full Stack Developer | UI Engineer</p>\par
+  </header>\par
+\par
+  <main>\par
+    <section>\par
+      <h2>About Me</h2>\par
+      <p>I build reliable web applications focused on clean UI and fast performance.</p>\par
+    </section>\par
+\par
+    <section>\par
+      <h2>Education</h2>\par
+      <ul>\par
+        <li>BCA - XYZ College (2022 - 2025)</li>\par
+        <li>HSC - ABC Junior College (2020 - 2022)</li>\par
+      </ul>\par
+    </section>\par
+\par
+    <section>\par
+      <h2>Skills</h2>\par
+      <ul>\par
+        <li>HTML, CSS, JavaScript</li>\par
+        <li>React, Node.js</li>\par
+        <li>MySQL, Git</li>\par
+      </ul>\par
+    </section>\par
+\par
+    <section>\par
+      <h2>Projects</h2>\par
+      <article>\par
+        <h3>Service Marketplace</h3>\par
+        <p>Built an escrow-enabled marketplace with admin dashboards.</p>\par
+      </article>\par
+      <article>\par
+        <h3>Attendance Tracker</h3>\par
+        <p>Developed a responsive web app for student attendance management.</p>\par
+      </article>\par
+    </section>\par
+\par
+    <section>\par
+      <h2>Contact</h2>\par
+      <p>Email: ananya.patel@example.com</p>\par
+      <p>Location: Mumbai, India</p>\par
+    </section>\par
+  </main>\par
+\par
+  <footer>\par
+    <small>Copyright 2025 Ananya Patel</small>\par
+  </footer>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 3. Survey Form using HTML\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Feedback Survey</title>\par
+</head>\par
+<body>\par
+  <h1>User Feedback Survey</h1>\par
+  <form>\par
+    <label for="name">Name</label><br />\par
+    <input id="name" name="name" type="text" placeholder="Enter your name" required /><br /><br />\par
+\par
+    <label for="email">Email</label><br />\par
+    <input id="email" name="email" type="email" placeholder="you@example.com" required /><br /><br />\par
+\par
+    <label>How satisfied are you?</label><br />\par
+    <input type="radio" id="s1" name="satisfaction" value="high" required />\par
+    <label for="s1">Very satisfied</label><br />\par
+    <input type="radio" id="s2" name="satisfaction" value="medium" />\par
+    <label for="s2">Satisfied</label><br />\par
+    <input type="radio" id="s3" name="satisfaction" value="low" />\par
+    <label for="s3">Not satisfied</label><br /><br />\par
+\par
+    <label>What features do you use?</label><br />\par
+    <input type="checkbox" id="f1" name="features" value="payments" />\par
+    <label for="f1">Payments</label><br />\par
+    <input type="checkbox" id="f2" name="features" value="chat" />\par
+    <label for="f2">Chat</label><br />\par
+    <input type="checkbox" id="f3" name="features" value="dashboard" />\par
+    <label for="f3">Dashboard</label><br /><br />\par
+\par
+    <label for="role">Your role</label><br />\par
+    <select id="role" name="role">\par
+      <option value="student">Student</option>\par
+      <option value="professional">Professional</option>\par
+      <option value="business">Business Owner</option>\par
+    </select><br /><br />\par
+\par
+    <label for="comments">Comments</label><br />\par
+    <textarea id="comments" name="comments" rows="4" placeholder="Share your feedback"></textarea><br /><br />\par
+\par
+    <button type="submit">Submit</button>\par
+  </form>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 4. Student Registration Form\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Student Registration</title>\par
+</head>\par
+<body>\par
+  <h1>Student Registration Form</h1>\par
+  <form>\par
+    <label for="name">Full Name</label><br />\par
+    <input id="name" name="name" type="text" maxlength="40" required /><br /><br />\par
+\par
+    <label for="email">Email</label><br />\par
+    <input id="email" name="email" type="email" required /><br /><br />\par
+\par
+    <label for="password">Password</label><br />\par
+    <input id="password" name="password" type="password" pattern=".\{6,\}" required />\par
+    <small>(min 6 characters)</small><br /><br />\par
+\par
+    <label>Gender</label><br />\par
+    <input type="radio" id="g1" name="gender" value="male" required />\par
+    <label for="g1">Male</label>\par
+    <input type="radio" id="g2" name="gender" value="female" />\par
+    <label for="g2">Female</label>\par
+    <input type="radio" id="g3" name="gender" value="other" />\par
+    <label for="g3">Other</label><br /><br />\par
+\par
+    <label for="course">Course</label><br />\par
+    <select id="course" name="course" required>\par
+      <option value="bca">BCA</option>\par
+      <option value="bsc">BSc IT</option>\par
+      <option value="mca">MCA</option>\par
+    </select><br /><br />\par
+\par
+    <label for="dob">Date of Birth</label><br />\par
+    <input id="dob" name="dob" type="date" required /><br /><br />\par
+\par
+    <label>Hobbies</label><br />\par
+    <input type="checkbox" id="h1" name="hobbies" value="sports" />\par
+    <label for="h1">Sports</label>\par
+    <input type="checkbox" id="h2" name="hobbies" value="music" />\par
+    <label for="h2">Music</label>\par
+    <input type="checkbox" id="h3" name="hobbies" value="reading" />\par
+    <label for="h3">Reading</label><br /><br />\par
+\par
+    <label for="photo">Photo Upload</label><br />\par
+    <input id="photo" name="photo" type="file" accept="image/*" required /><br /><br />\par
+\par
+    <button type="submit">Register</button>\par
+  </form>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 5. Select Element Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Select Element Demo</title>\par
+</head>\par
+<body>\par
+  <h1>Select Element Demonstration</h1>\par
+\par
+  <label for="dept">Department (Single Select)</label><br />\par
+  <select id="dept" name="dept">\par
+    <optgroup label="Science">\par
+      <option>Computer Science</option>\par
+      <option>Information Tech</option>\par
+    </optgroup>\par
+    <optgroup label="Commerce">\par
+      <option>Accounting</option>\par
+      <option>Marketing</option>\par
+    </optgroup>\par
+  </select>\par
+\par
+  <h2>Courses (Multiple Select)</h2>\par
+  <select id="courses" name="courses" multiple size="5">\par
+    <optgroup label="Programming">\par
+      <option>Java</option>\par
+      <option>Python</option>\par
+      <option>JavaScript</option>\par
+    </optgroup>\par
+    <optgroup label="Web">\par
+      <option>HTML</option>\par
+      <option>CSS</option>\par
+    </optgroup>\par
+  </select>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 6. CSS Selectors Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>CSS Selectors</title>\par
+  <style>\par
+    * \{ font-family: Arial, sans-serif; \}\par
+    h1 \{ color: #2d3436; \}\par
+    .highlight \{ background: #ffeaa7; padding: 6px; \}\par
+    #unique \{ color: #d63031; font-weight: bold; \}\par
+    h2, p \{ margin-bottom: 8px; \}\par
+    div \{ border: 1px solid #dfe6e9; padding: 10px; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <h1>CSS Selector Demo</h1>\par
+  <h2 class="highlight">Class Selector</h2>\par
+  <p id="unique">ID Selector applied here.</p>\par
+  <div>\par
+    <p>Element selector styles applied to paragraph.</p>\par
+  </div>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 7. Menu-Driven Web Page using CSS\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Menu Page</title>\par
+  <style>\par
+    body \{ font-family: Arial, sans-serif; margin: 0; \}\par
+    nav \{ background: #2d3436; padding: 12px; \}\par
+    nav a \{\par
+      color: #fff;\par
+      text-decoration: none;\par
+      margin-right: 16px;\par
+      padding: 6px 10px;\par
+    \}\par
+    nav a:hover \{ background: #636e72; border-radius: 4px; \}\par
+    section \{ padding: 20px; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <nav>\par
+    <a href="#home">Home</a>\par
+    <a href="#services">Services</a>\par
+    <a href="#contact">Contact</a>\par
+  </nav>\par
+  <section id="home"><h2>Home</h2><p>Welcome section.</p></section>\par
+  <section id="services"><h2>Services</h2><p>Service details.</p></section>\par
+  <section id="contact"><h2>Contact</h2><p>Contact details.</p></section>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 8. Student Database Page using Integrated CSS\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Student Database</title>\par
+  <style>\par
+    body \{ font-family: Arial, sans-serif; background: #f5f6fa; padding: 20px; \}\par
+    h1 \{ text-align: center; \}\par
+    table \{ width: 100%; border-collapse: collapse; background: #fff; \}\par
+    th, td \{ border: 1px solid #dcdde1; padding: 10px; text-align: center; \}\par
+    th \{ background: #273c75; color: #fff; \}\par
+    tr:nth-child(even) \{ background: #f1f2f6; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <h1>Student Database</h1>\par
+  <table>\par
+    <tr><th>ID</th><th>Name</th><th>Course</th><th>Marks</th></tr>\par
+    <tr><td>1</td><td>Rahul</td><td>MCA</td><td>82</td></tr>\par
+    <tr><td>2</td><td>Priya</td><td>BCA</td><td>76</td></tr>\par
+    <tr><td>3</td><td>Aditya</td><td>BSc IT</td><td>88</td></tr>\par
+  </table>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 9. CSS Positioning Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>CSS Positioning</title>\par
+  <style>\par
+    body \{ font-family: Arial, sans-serif; padding: 20px; \}\par
+    .box \{ width: 140px; height: 80px; padding: 10px; color: #fff; \}\par
+    .static \{ background: #6c5ce7; \}\par
+    .relative \{ background: #00b894; position: relative; left: 20px; \}\par
+    .absolute-wrap \{ position: relative; height: 120px; border: 1px dashed #636e72; \}\par
+    .absolute \{ background: #e17055; position: absolute; right: 10px; top: 10px; \}\par
+    .fixed \{ background: #d63031; position: fixed; bottom: 10px; right: 10px; \}\par
+    .sticky \{ background: #0984e3; position: sticky; top: 0; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <div class="box static">Static</div>\par
+  <div class="box relative">Relative</div>\par
+  <div class="absolute-wrap">\par
+    <div class="box absolute">Absolute</div>\par
+  </div>\par
+  <div class="box sticky">Sticky</div>\par
+  <p>Scroll down to observe the sticky box.</p>\par
+  <div style="height: 600px;"></div>\par
+  <div class="box fixed">Fixed</div>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 10. CSS Overflow Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Overflow Demo</title>\par
+  <style>\par
+    body \{ font-family: Arial, sans-serif; padding: 20px; \}\par
+    .container \{ width: 220px; height: 120px; border: 1px solid #333; margin-bottom: 16px; padding: 8px; \}\par
+    .hidden \{ overflow: hidden; \}\par
+    .scroll \{ overflow: scroll; \}\par
+    .auto \{ overflow: auto; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <div class="container hidden">Hidden overflow content. This text is long and will be clipped.</div>\par
+  <div class="container scroll">Scroll overflow content. This text is long and will be scrollable.</div>\par
+  <div class="container auto">Auto overflow content. This text is long and will show scroll only if needed.</div>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 11. Student Information Card using CSS Box Model\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Box Model Card</title>\par
+  <style>\par
+    body \{ font-family: Arial, sans-serif; background: #f5f5f5; \}\par
+    .card \{\par
+      margin: 40px auto;\par
+      border: 4px solid #2d3436;\par
+      padding: 20px;\par
+      width: 280px;\par
+      background: #fff;\par
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);\par
+    \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <div class="card">\par
+    <h2>Student Card</h2>\par
+    <p>Name: Meera Joshi</p>\par
+    <p>Course: MCA</p>\par
+    <p>Roll No: 25</p>\par
+  </div>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 12. CSS Pseudo Class Example\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Pseudo Classes</title>\par
+  <style>\par
+    a:visited \{ color: purple; \}\par
+    a:hover \{ color: #e17055; \}\par
+    button:hover \{ background: #0984e3; color: #fff; \}\par
+    button:active \{ transform: scale(0.98); \}\par
+    input:focus \{ border: 2px solid #00b894; outline: none; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <a href="https://example.com">Example Link</a><br /><br />\par
+  <button>Hover / Active Button</button><br /><br />\par
+  <input type="text" placeholder="Focus here" />\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 13. Bootstrap Button Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Bootstrap Buttons</title>\par
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />\par
+</head>\par
+<body class="p-4">\par
+  <h1>Bootstrap Buttons</h1>\par
+  <button class="btn btn-primary">Primary</button>\par
+  <button class="btn btn-secondary">Secondary</button>\par
+  <button class="btn btn-success">Success</button>\par
+  <button class="btn btn-danger">Danger</button>\par
+  <button class="btn btn-outline-primary">Outline</button>\par
+  <button class="btn btn-primary btn-lg">Large</button>\par
+  <button class="btn btn-primary btn-sm">Small</button>\par
+  <button class="btn btn-secondary" disabled>Disabled</button>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 14. Animated Button using CSS\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Animated Button</title>\par
+  <style>\par
+    .btn \{\par
+      padding: 12px 24px;\par
+      border: none;\par
+      border-radius: 24px;\par
+      background: #6c5ce7;\par
+      color: #fff;\par
+      font-size: 16px;\par
+      cursor: pointer;\par
+      transition: transform 0.3s ease, background 0.3s ease;\par
+    \}\par
+    .btn:hover \{ background: #341f97; transform: scale(1.05); \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <button class="btn">Animated Button</button>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 15. Combined Attribute Selector Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>Attribute Selectors</title>\par
+  <style>\par
+    input[type="text"] \{ border: 2px solid #0984e3; \}\par
+    input[type="email"] \{ border: 2px solid #00b894; \}\par
+    input[name^="user"] \{ background: #f1f2f6; \}\par
+    input[value$="ID"] \{ color: #d63031; \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <input type="text" name="userName" placeholder="Username" /><br /><br />\par
+  <input type="email" name="userEmail" placeholder="Email" /><br /><br />\par
+  <input type="text" name="staffID" value="Staff ID" />\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 16. 2D Transformations using CSS\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>2D Transforms</title>\par
+  <style>\par
+    .box \{ width: 120px; height: 120px; margin: 16px; display: inline-block; background: #74b9ff; transition: transform 0.4s; \}\par
+    .rotate:hover \{ transform: rotate(15deg); \}\par
+    .scale:hover \{ transform: scale(1.2); \}\par
+    .translate:hover \{ transform: translateX(20px); \}\par
+    .skew:hover \{ transform: skew(10deg); \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <div class="box rotate"></div>\par
+  <div class="box scale"></div>\par
+  <div class="box translate"></div>\par
+  <div class="box skew"></div>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 17. JavaScript Events Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head>\par
+  <meta charset="utf-8" />\par
+  <title>JS Events</title>\par
+</head>\par
+<body>\par
+  <h1 id="status">Event Demo</h1>\par
+  <button id="btn">Click me</button>\par
+  <div id="hoverBox" style="margin-top:20px;padding:20px;border:1px solid #333;">Hover here</div>\par
+  <input id="keyInput" type="text" placeholder="Type something" />\par
+\par
+  <script>\par
+    document.getElementById("btn").onclick = () => \{\par
+      document.getElementById("status").textContent = "Button clicked";\par
+    \};\par
+    document.getElementById("hoverBox").onmouseover = (e) => \{\par
+      e.target.style.background = "#dfe6e9";\par
+    \};\par
+    document.getElementById("hoverBox").onmouseout = (e) => \{\par
+      e.target.style.background = "transparent";\par
+    \};\par
+    document.getElementById("keyInput").onkeyup = (e) => \{\par
+      document.getElementById("status").textContent = `Typed: $\{e.target.value\}`;\par
+    \};\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 18. Palindrome Check using JavaScript\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Palindrome</title></head>\par
+<body>\par
+  <h1>Palindrome Checker</h1>\par
+  <input id="text" type="text" placeholder="Enter text" />\par
+  <button onclick="checkPalindrome()">Check</button>\par
+  <p id="result"></p>\par
+\par
+  <script>\par
+    function checkPalindrome() \{\par
+      const text = document.getElementById("text").value.toLowerCase().replace(/[^a-z0-9]/g, "");\par
+      const reversed = text.split("").reverse().join("");\par
+      const message = text && text === reversed ? "Palindrome" : "Not a palindrome";\par
+      document.getElementById("result").textContent = message;\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 19. Count Words & Print Length\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Word Count</title></head>\par
+<body>\par
+  <h1>Sentence Analyzer</h1>\par
+  <textarea id="sentence" rows="4" cols="40" placeholder="Type a sentence"></textarea><br />\par
+  <button onclick="analyze()">Analyze</button>\par
+  <p id="output"></p>\par
+\par
+  <script>\par
+    function analyze() \{\par
+      const text = document.getElementById("sentence").value.trim();\par
+      const words = text ? text.split(/\\s+/).length : 0;\par
+      const chars = text.replace(/\\s/g, "").length;\par
+      document.getElementById("output").textContent = `Words: $\{words\}, Characters (no spaces): $\{chars\}`;\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 20. JavaScript String Methods Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>String Methods</title></head>\par
+<body>\par
+  <h1>String Methods</h1>\par
+  <input id="input" type="text" value="MarketMate Platform" />\par
+  <button onclick="showMethods()">Show</button>\par
+  <pre id="result"></pre>\par
+\par
+  <script>\par
+    function showMethods() \{\par
+      const s = document.getElementById("input").value;\par
+      const output = [\par
+        `Length: $\{s.length\}`,\par
+        `Upper: $\{s.toUpperCase()\}`,\par
+        `Lower: $\{s.toLowerCase()\}`,\par
+        `Substring(0,6): $\{s.substring(0, 6)\}`,\par
+        `Replace: $\{s.replace("Platform", "App")\}`\par
+      ].join("\\n");\par
+      document.getElementById("result").textContent = output;\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 21. Conditional Statements Program\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Grade Calculator</title></head>\par
+<body>\par
+  <h1>Grade Calculator</h1>\par
+  <input id="marks" type="number" min="0" max="100" placeholder="Enter marks" />\par
+  <button onclick="calculate()">Calculate</button>\par
+  <p id="grade"></p>\par
+\par
+  <script>\par
+    function calculate() \{\par
+      const marks = Number(document.getElementById("marks").value);\par
+      let grade = "";\par
+\par
+      if (marks >= 90) grade = "A";\par
+      else if (marks >= 80) grade = "B";\par
+      else if (marks >= 70) grade = "C";\par
+      else if (marks >= 60) grade = "D";\par
+      else grade = "F";\par
+\par
+      let remark = "";\par
+      switch (grade) \{\par
+        case "A": remark = "Excellent"; break;\par
+        case "B": remark = "Very Good"; break;\par
+        case "C": remark = "Good"; break;\par
+        case "D": remark = "Pass"; break;\par
+        default: remark = "Fail";\par
+      \}\par
+\par
+      document.getElementById("grade").textContent = `Grade: $\{grade\} ($\{remark\})`;\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 22. Array Demonstration Program\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Array Demo</title></head>\par
+<body>\par
+  <h1>Array Demonstration</h1>\par
+  <input id="item" type="text" placeholder="Add item" />\par
+  <button onclick="addItem()">Add</button>\par
+  <button onclick="removeItem()">Remove Last</button>\par
+  <ul id="list"></ul>\par
+\par
+  <script>\par
+    const arr = ["HTML", "CSS", "JS"];\par
+    const list = document.getElementById("list");\par
+\par
+    function render() \{\par
+      list.innerHTML = arr.map(item => `<li>$\{item\}</li>`).join("");\par
+    \}\par
+\par
+    function addItem() \{\par
+      const value = document.getElementById("item").value.trim();\par
+      if (value) arr.push(value);\par
+      document.getElementById("item").value = "";\par
+      render();\par
+    \}\par
+\par
+    function removeItem() \{\par
+      arr.pop();\par
+      render();\par
+    \}\par
+\par
+    render();\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 23. Student Marks Management System using Arrays\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Marks Manager</title></head>\par
+<body>\par
+  <h1>Marks Manager</h1>\par
+  <input id="mark" type="number" placeholder="Enter mark" />\par
+  <button onclick="addMark()">Add</button>\par
+  <p id="summary"></p>\par
+  <ul id="marksList"></ul>\par
+\par
+  <script>\par
+    const marks = [];\par
+\par
+    function addMark() \{\par
+      const value = Number(document.getElementById("mark").value);\par
+      if (!Number.isNaN(value)) marks.push(value);\par
+      document.getElementById("mark").value = "";\par
+      render();\par
+    \}\par
+\par
+    function render() \{\par
+      const total = marks.reduce((a, b) => a + b, 0);\par
+      const avg = marks.length ? (total / marks.length).toFixed(2) : 0;\par
+      const status = avg >= 40 ? "Pass" : "Fail";\par
+      document.getElementById("summary").textContent = `Total: $\{total\}, Avg: $\{avg\}, Status: $\{status\}`;\par
+      document.getElementById("marksList").innerHTML = marks.map(m => `<li>$\{m\}</li>`).join("");\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 24. JavaScript Objects Demonstration\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>Objects Demo</title></head>\par
+<body>\par
+  <h1>Student Object</h1>\par
+  <pre id="output"></pre>\par
+\par
+  <script>\par
+    const student = \{\par
+      name: "Rohan Mehta",\par
+      roll: 12,\par
+      marks: 86,\par
+      result() \{ return this.marks >= 40 ? "Pass" : "Fail"; \}\par
+    \};\par
+\par
+    document.getElementById("output").textContent =\par
+      `Name: $\{student.name\}\\nRoll: $\{student.roll\}\\nMarks: $\{student.marks\}\\nResult: $\{student.result()\}`;\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 25. DOM Manipulation & Event Handling Program\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+<!doctype html>\par
+<html lang="en">\par
+<head><meta charset="utf-8" /><title>DOM Manipulation</title></head>\par
+<body>\par
+  <h1 id="title">Original Title</h1>\par
+  <img id="photo" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=320&q=80" alt="Desk" width="200" />\par
+  <button onclick="changeContent()">Change Content</button>\par
+\par
+  <script>\par
+    function changeContent() \{\par
+      const title = document.getElementById("title");\par
+      title.textContent = "Updated Title";\par
+      title.style.color = "#0984e3";\par
+      document.getElementById("photo").setAttribute("alt", "Updated image");\par
+    \}\par
+  </script>\par
+</body>\par
+</html>\par
+\f0\fs20\par
+\fs24\b 26. React Hello World Component\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+import React from "react";\par
+\par
+export default function HelloWorld() \{\par
+  return <h1>Hello World</h1>;\par
+\}\par
+\f0\fs20\par
+\fs24\b 27. Student Details Component using Props\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+import React from "react";\par
+\par
+export default function StudentDetails(\{ name, roll, course \}) \{\par
+  return (\par
+    <div>\par
+      <h2>\{name\}</h2>\par
+      <p>Roll: \{roll\}</p>\par
+      <p>Course: \{course\}</p>\par
+    </div>\par
+  );\par
+\}\par
+\f0\fs20\par
+\fs24\b 28. Counter Application using useState\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+import React, \{ useState \} from "react";\par
+\par
+export default function Counter() \{\par
+  const [count, setCount] = useState(0);\par
+\par
+  return (\par
+    <div>\par
+      <h2>Count: \{count\}</h2>\par
+      <button onClick=\{() => setCount((prev) => prev + 1)\}>Increment</button>\par
+      <button onClick=\{() => setCount((prev) => prev - 1)\}>Decrement</button>\par
+    </div>\par
+  );\par
+\}\par
+\f0\fs20\par
+\fs24\b 29. Toggle Message using Conditional Rendering\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+import React, \{ useState \} from "react";\par
+\par
+export default function ToggleMessage() \{\par
+  const [show, setShow] = useState(true);\par
+\par
+  return (\par
+    <div>\par
+      <button onClick=\{() => setShow((prev) => !prev)\}>Toggle</button>\par
+      \{show && <p>Message is visible.</p>\}\par
+    </div>\par
+  );\par
+\}\par
+\f0\fs20\par
+\fs24\b 30. List Rendering using map()\b0\par
+\fs20\b Solution Code:\b0\par
+\f1\fs18
+import React from "react";\par
+\par
+export default function ItemList() \{\par
+  const items = ["HTML", "CSS", "JavaScript", "React"];\par
+\par
+  return (\par
+    <ul>\par
+      \{items.map((item) => (\par
+        <li key=\{item\}>\{item\}</li>\par
+      ))\}\par
+    </ul>\par
+  );\par
+\}\par
+\f0\fs20\par
+}
