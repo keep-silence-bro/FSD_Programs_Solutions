@@ -1,0 +1,731 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset='utf-8'>
+<title>MCA Solutions Full</title>
+<style>
+body { font-family: Calibri, sans-serif; font-size: 11pt; line-height: 1.5; }
+h1 { color: #2E74B5; text-align: center; border-bottom: 2px solid #2E74B5; padding-bottom: 10px; }
+h2 { color: #1F4D78; margin-top: 25px; border-bottom: 1px solid #ddd; }
+.problem { background-color: #f7f9fa; border-left: 5px solid #2E74B5; padding: 10px; font-style: italic; margin-bottom: 10px; }
+pre { background-color: #f4f4f4; border: 1px solid #ccc; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 9pt; white-space: pre-wrap; word-wrap: break-word; }
+</style>
+</head>
+<body>
+<h1>MCA Assignment Solutions - Full Code</h1>
+
+<h2>1. Basic HTML Tags Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Create an HTML webpage that demonstrates the use of basic HTML tags...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Basic Tags&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Heading 1&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;ul&gt;&lt;li&gt;Item A&lt;/li&gt;&lt;li&gt;Item B&lt;/li&gt;&lt;/ul&gt;
+    &lt;ol&gt;&lt;li&gt;First&lt;/li&gt;&lt;li&gt;Second&lt;/li&gt;&lt;/ol&gt;
+    &lt;a href="https://example.com"&gt;Link&lt;/a&gt;
+    &lt;br&gt;
+    &lt;img src="image.jpg" alt="Sample" width="100"&gt;
+    &lt;table border="1"&gt;
+        &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;John&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>2. Personal Portfolio Website</h2>
+<div class='problem'><strong>Problem:</strong> Design a personal portfolio website...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;My Portfolio&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;section id="intro"&gt;
+        &lt;h2&gt;Introduction&lt;/h2&gt;
+        &lt;p&gt;Hi, I am a web developer.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;section id="skills"&gt;
+        &lt;h2&gt;Skills&lt;/h2&gt;
+        &lt;ul&gt;&lt;li&gt;HTML&lt;/li&gt;&lt;li&gt;CSS&lt;/li&gt;&lt;/ul&gt;
+    &lt;/section&gt;
+    &lt;section id="contact"&gt;
+        &lt;h2&gt;Contact&lt;/h2&gt;
+        &lt;p&gt;Email: me@example.com&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>3. Survey Form using HTML</h2>
+<div class='problem'><strong>Problem:</strong> Develop an HTML survey form...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;label&gt;Name: &lt;input type="text" placeholder="Your Name"&gt;&lt;/label&gt;&lt;br&gt;
+        &lt;label&gt;Gender: 
+            &lt;input type="radio" name="gender" value="m"&gt; Male
+            &lt;input type="radio" name="gender" value="f"&gt; Female
+        &lt;/label&gt;&lt;br&gt;
+        &lt;label&gt;Interests:
+            &lt;input type="checkbox"&gt; Coding
+            &lt;input type="checkbox"&gt; Design
+        &lt;/label&gt;&lt;br&gt;
+        &lt;label&gt;Country:
+            &lt;select&gt;
+                &lt;option&gt;USA&lt;/option&gt;
+                &lt;option&gt;India&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/label&gt;&lt;br&gt;
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>4. Student Registration Form</h2>
+<div class='problem'><strong>Problem:</strong> Create a student registration form...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;h2&gt;Registration&lt;/h2&gt;
+    &lt;form&gt;
+        Name: &lt;input type="text" required&gt;&lt;br&gt;
+        Email: &lt;input type="email" required&gt;&lt;br&gt;
+        Password: &lt;input type="password" maxlength="10"&gt;&lt;br&gt;
+        DOB: &lt;input type="date"&gt;&lt;br&gt;
+        Photo: &lt;input type="file"&gt;&lt;br&gt;
+        &lt;input type="submit" value="Register"&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>5. Select Element Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Design an HTML page demonstrating the use of the select element...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;5. Select Element Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;select name="courses"&gt;
+    &lt;optgroup label="Science"&gt;
+        &lt;option value="phy"&gt;Physics&lt;/option&gt;
+        &lt;option value="math"&gt;Math&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label="Arts"&gt;
+        &lt;option value="his"&gt;History&lt;/option&gt;
+        &lt;option value="eng"&gt;English&lt;/option&gt;
+    &lt;/optgroup&gt;
+&lt;/select&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>6. CSS Selectors Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Create a webpage that demonstrates different CSS selectors...</div>
+<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+    h1 { color: blue; } /* Element */
+    .highlight { background: yellow; } /* Class */
+    #main { border: 1px solid black; } /* ID */
+    h1, p { font-family: Arial; } /* Group */
+    * { margin: 0; } /* Universal */
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="main"&gt;
+        &lt;h1&gt;Title&lt;/h1&gt;
+        &lt;p class="highlight"&gt;Highlighted text.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2>7. Menu-Driven Web Page using CSS</h2>
+<div class='problem'><strong>Problem:</strong> Develop a menu-driven webpage using HTML and CSS...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;7. Menu-Driven Web Page using CSS&lt;/title&gt;
+    &lt;style&gt;
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+li { float: left; }
+li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+li a:hover { background-color: #111; }
+&lt;/style&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#news"&gt;News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;7. Menu-Driven Web Page using CSS&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>8. Student Database Page using Integrated CSS</h2>
+<div class='problem'><strong>Problem:</strong> Design a student database webpage...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;8. Student Database Page using Integrated CSS&lt;/title&gt;
+    &lt;style&gt;
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid black; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+&lt;/style&gt;
+&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;ID&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Alice&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;8. Student Database Page using Integrated CSS&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>9. CSS Positioning Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Create a webpage that demonstrates different CSS positioning...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;9. CSS Positioning Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div style="position: static; border: 1px solid red;"&gt;Static&lt;/div&gt;
+&lt;div style="position: relative; left: 30px; border: 1px solid blue;"&gt;Relative&lt;/div&gt;
+&lt;div style="position: absolute; top: 50px; right: 0; border: 1px solid green;"&gt;Absolute&lt;/div&gt;
+&lt;div style="position: fixed; bottom: 0; border: 1px solid yellow;"&gt;Fixed&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>10. CSS Overflow Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Develop an HTML page to demonstrate CSS overflow properties...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;10. CSS Overflow Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div style="width: 100px; height: 50px; overflow: scroll; border: 1px solid black;"&gt;
+  This text is too long to fit in the box and will scroll.
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>11. Student Information Page using CSS Box Model</h2>
+<div class='problem'><strong>Problem:</strong> Create a student information card... CSS box model...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;11. Student Information Page using CSS Box Model&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div style="width: 200px; padding: 20px; border: 5px solid gray; margin: 10px;"&gt;
+  Content Area
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>12. CSS Pseudo Class Example</h2>
+<div class='problem'><strong>Problem:</strong> Design a webpage demonstrating CSS pseudo-classes...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;12. CSS Pseudo Class Example&lt;/title&gt;
+    &lt;style&gt;
+a:link { color: red; }
+a:visited { color: green; }
+a:hover { color: hotpink; }
+a:active { color: blue; }
+&lt;/style&gt;
+&lt;a href="#"&gt;Hover Me&lt;/a&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;12. CSS Pseudo Class Example&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>13. Bootstrap Button Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Create a webpage using Bootstrap...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;13. Bootstrap Button Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Include Bootstrap CSS --&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"&gt;
+&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>14. Animated Button using CSS</h2>
+<div class='problem'><strong>Problem:</strong> Develop an animated button...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;14. Animated Button using CSS&lt;/title&gt;
+    &lt;style&gt;
+button { transition: background-color 0.5s, transform 0.5s; }
+button:hover { background-color: coral; transform: scale(1.1); }
+&lt;/style&gt;
+&lt;button&gt;Hover Me&lt;/button&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;14. Animated Button using CSS&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>15. Combined Attribute Selector Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Create a webpage that demonstrates combined attribute selectors...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;15. Combined Attribute Selector Demonstration&lt;/title&gt;
+    &lt;style&gt;
+input[type="text"][name="username"] { border: 2px solid blue; }
+&lt;/style&gt;
+&lt;input type="text" name="username" placeholder="Username"&gt;
+&lt;input type="password" name="password" placeholder="Password"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;15. Combined Attribute Selector Demonstration&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>16. 2D Transformations using CSS</h2>
+<div class='problem'><strong>Problem:</strong> Design a webpage demonstrating 2D CSS transformations...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;16. 2D Transformations using CSS&lt;/title&gt;
+    &lt;style&gt;
+div { width: 100px; height: 100px; background: red; transition: 1s; margin: 50px; }
+div:hover { transform: rotate(45deg) scale(1.2) translate(10px, 10px); }
+&lt;/style&gt;
+&lt;div&gt;Box&lt;/div&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;16. 2D Transformations using CSS&lt;/h1&gt;
+    &lt;p&gt;Demo content for styling.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>17. JavaScript Events Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Develop a webpage that demonstrates various JavaScript events...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;17. JavaScript Events Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button onclick="alert('Clicked!')"&gt;Click Me&lt;/button&gt;
+&lt;input onkeydown="console.log('Key Pressed')" placeholder="Type here"&gt;
+&lt;div onmouseover="this.style.background='yellow'" onmouseout="this.style.background='white'"&gt;Hover Me&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>18. Palindrome Check using JavaScript</h2>
+<div class='problem'><strong>Problem:</strong> Write a JavaScript program... checks whether it is a palindrome...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;18. Palindrome Check using JavaScript&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;18. Palindrome Check using JavaScript&lt;/h1&gt;
+    &lt;input id="str" placeholder="Enter string"&gt;
+&lt;button onclick="checkPal()"&gt;Check&lt;/button&gt;
+&lt;p id="res"&gt;&lt;/p&gt;
+&lt;script&gt;
+function checkPal() {
+    var s = document.getElementById("str").value;
+    var rev = s.split('').reverse().join('');
+    document.getElementById("res").innerText = (s === rev) ? "Palindrome" : "Not Palindrome";
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>19. Count Words & Print Length</h2>
+<div class='problem'><strong>Problem:</strong> Create a JavaScript program... counts the number of words... and total character length...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;19. Count Words &amp; Print Length&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;19. Count Words &amp; Print Length&lt;/h1&gt;
+    &lt;input id="sent" placeholder="Enter sentence"&gt;
+&lt;button onclick="count()"&gt;Count&lt;/button&gt;
+&lt;p id="out"&gt;&lt;/p&gt;
+&lt;script&gt;
+function count() {
+    var txt = document.getElementById("sent").value.trim();
+    var words = txt === "" ? 0 : txt.split(/\s+/).length;
+    var chars = txt.replace(/\s+/g, '').length;
+    document.getElementById("out").innerText = "Words: " + words + ", Chars: " + chars;
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>20. JavaScript String Methods Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Develop a program demonstrating commonly used JavaScript string methods...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;20. JavaScript String Methods Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;20. JavaScript String Methods Demonstration&lt;/h1&gt;
+    &lt;script&gt;
+var s = "Hello World";
+document.write("Length: " + s.length + "&lt;br&gt;");
+document.write("Upper: " + s.toUpperCase() + "&lt;br&gt;");
+document.write("Lower: " + s.toLowerCase() + "&lt;br&gt;");
+document.write("Substring: " + s.substring(0, 5) + "&lt;br&gt;");
+document.write("Replace: " + s.replace("World", "JS"));
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>21. Conditional Statements Program</h2>
+<div class='problem'><strong>Problem:</strong> Write a JavaScript program... Accept marks... display grade...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;21. Conditional Statements Program&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;21. Conditional Statements Program&lt;/h1&gt;
+    &lt;input id="marks" type="number"&gt;
+&lt;button onclick="grade()"&gt;Get Grade&lt;/button&gt;
+&lt;script&gt;
+function grade() {
+    var m = parseInt(document.getElementById("marks").value);
+    if (m &gt;= 90) alert("A");
+    else if (m &gt;= 50) alert("B");
+    else alert("F");
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>22. Array Demonstration Program</h2>
+<div class='problem'><strong>Problem:</strong> Develop a JavaScript program that demonstrates array creation...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;22. Array Demonstration Program&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;22. Array Demonstration Program&lt;/h1&gt;
+    &lt;script&gt;
+var arr = [10, 20];
+arr.push(30); // Insert
+arr.shift(); // Delete
+document.write("Array: " + arr.join(", "));
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>23. Student Marks Management System using Arrays</h2>
+<div class='problem'><strong>Problem:</strong> Create a JavaScript application that stores student marks...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;23. Student Marks Management System using Arrays&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;23. Student Marks Management System using Arrays&lt;/h1&gt;
+    &lt;script&gt;
+var marks = [85, 92, 78];
+var total = marks.reduce((a, b) =&gt; a + b, 0);
+var avg = total / marks.length;
+document.write("Total: " + total + "&lt;br&gt;Average: " + avg + "&lt;br&gt;Result: " + (avg &gt;= 50 ? "Pass" : "Fail"));
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>24. JavaScript Objects Demonstration</h2>
+<div class='problem'><strong>Problem:</strong> Develop a JavaScript program that creates objects representing students...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;24. JavaScript Objects Demonstration&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;24. JavaScript Objects Demonstration&lt;/h1&gt;
+    &lt;script&gt;
+var student = {
+    name: "John",
+    roll: 101,
+    marks: 90,
+    display: function() {
+        return this.name + " (" + this.roll + "): " + this.marks;
+    }
+};
+document.write(student.display());
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>25. DOM Manipulation & Event Handling Program</h2>
+<div class='problem'><strong>Problem:</strong> Create a webpage that uses JavaScript DOM manipulation...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;25. DOM Manipulation &amp; Event Handling Program&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p id="txt"&gt;Original Text&lt;/p&gt;
+&lt;button onclick="document.getElementById('txt').innerText='Changed!'"&gt;Change Text&lt;/button&gt;
+&lt;button onclick="document.getElementById('txt').style.color='red'"&gt;Change Color&lt;/button&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>26. React Hello World Component</h2>
+<div class='problem'><strong>Problem:</strong> Create a simple React application that displays a Hello World...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;26. React Hello World Component&lt;/title&gt;
+    &lt;script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"&gt;&lt;/script&gt;
+    &lt;script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="text/babel"&gt;
+
+
+function HelloWorld() {
+    return &lt;h1&gt;Hello World&lt;/h1&gt;;
+}
+
+
+
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(&lt;HelloWorld /&gt;);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>27. Student Details Component using Props</h2>
+<div class='problem'><strong>Problem:</strong> Develop a React component that accepts student details as props...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;27. Student Details Component using Props&lt;/title&gt;
+    &lt;script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"&gt;&lt;/script&gt;
+    &lt;script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="text/babel"&gt;
+function StudentDetails({ name, course }) {
+    return (
+        &lt;div&gt;
+            &lt;h2&gt;Student Info&lt;/h2&gt;
+            &lt;p&gt;Name: {name}&lt;/p&gt;
+            &lt;p&gt;Course: {course}&lt;/p&gt;
+        &lt;/div&gt;
+    );
+}
+
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(&lt;StudentDetails /&gt;);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>28. Counter Application using useState</h2>
+<div class='problem'><strong>Problem:</strong> Create a React counter application using the useState hook...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;28. Counter Application using useState&lt;/title&gt;
+    &lt;script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"&gt;&lt;/script&gt;
+    &lt;script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="text/babel"&gt;
+
+
+function Counter() {
+    const [count, setCount] = useState(0);
+    return (
+        &lt;div&gt;
+            &lt;p&gt;Count: {count}&lt;/p&gt;
+            &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;
+            &lt;button onClick={() =&gt; setCount(count - 1)}&gt;Decrement&lt;/button&gt;
+        &lt;/div&gt;
+    );
+}
+
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(&lt;Counter /&gt;);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>29. Toggle Message using Conditional Rendering</h2>
+<div class='problem'><strong>Problem:</strong> Develop a React application that shows or hides a message...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;29. Toggle Message using Conditional Rendering&lt;/title&gt;
+    &lt;script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"&gt;&lt;/script&gt;
+    &lt;script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="text/babel"&gt;
+
+
+function ToggleMessage() {
+    const [show, setShow] = useState(true);
+    return (
+        &lt;div&gt;
+            &lt;button onClick={() =&gt; setShow(!show)}&gt;Toggle&lt;/button&gt;
+            {show &amp;&amp; &lt;p&gt;This is a message.&lt;/p&gt;}
+        &lt;/div&gt;
+    );
+}
+
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(&lt;ToggleMessage /&gt;);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h2>30. List Rendering using map()</h2>
+<div class='problem'><strong>Problem:</strong> Create a React application that renders a list of items...</div>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;30. List Rendering using map()&lt;/title&gt;
+    &lt;script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"&gt;&lt;/script&gt;
+    &lt;script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"&gt;&lt;/script&gt;
+    &lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="root"&gt;&lt;/div&gt;
+    &lt;script type="text/babel"&gt;
+function ItemList() {
+    const items = ['Apple', 'Banana', 'Orange'];
+    return (
+        &lt;ul&gt;
+            {items.map((item, index) =&gt; (
+                &lt;li key={index}&gt;{item}&lt;/li&gt;
+            ))}
+        &lt;/ul&gt;
+    );
+}
+
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(&lt;ItemList /&gt;);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</body></html>
